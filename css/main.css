@@ -22,6 +22,16 @@ font-family: 'Simon Circular Book';
 body * {
   font-weight: lighter;;
 }
+.gif-wrap{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url('../img/ezgif.com-optimize.gif');
+  background-size: cover;
+  background-position: top center;
+}
 #video {
   position: absolute;
   bottom: 0px;
