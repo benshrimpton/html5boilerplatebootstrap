@@ -45,7 +45,7 @@ body * {
 }
 .inner {
   margin: 0 auto;
-  max-width: 800px;
+  /*max-width: 800px;*/
   /*text-align: right;*/
 }
 .logo {
@@ -71,8 +71,9 @@ body * {
   display: none;
 }
 #svg-logo{
-  max-width: 600px;
+  /*max-width: 600px;*/
   width: 100%;
+  margin-bottom: 50px;
 }
 #svg-logo path {
   fill: white;
