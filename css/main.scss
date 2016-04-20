@@ -8,7 +8,7 @@ padding: 0;
 height: 100%;
 overflow: hidden;
 color: white;
-font-family: Avenir, 'Simon Circular Book';
+font-family: 'Simon Circular Book';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
@@ -42,7 +42,7 @@ body * {
 .cover {
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
-  background: rgba(0,0, 0, .8);
+  background: rgba(0,0, 0, .75);
   z-index: 2;
 }
 .inner {
@@ -68,7 +68,8 @@ body * {
 	a {
 	  color: white;
 	  text-decoration: none;
-	  margin: 0 10px;
+	  margin: 0;
+    display: block;
 		&:hover {
 		  color: gray;
 			small {

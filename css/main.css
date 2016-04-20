@@ -8156,7 +8156,7 @@ body, html {
   height: 100%;
   overflow: hidden;
   color: white;
-  font-family: Avenir, 'Simon Circular Book';
+  font-family: 'Simon Circular Book';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -8197,7 +8197,7 @@ body * {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 2; }
 
 /* line 48, main.scss */
@@ -8232,15 +8232,16 @@ body * {
   .logo a {
     color: white;
     text-decoration: none;
-    margin: 0 10px; }
-    /* line 72, main.scss */
+    margin: 0;
+    display: block; }
+    /* line 73, main.scss */
     .logo a:hover {
       color: gray; }
-      /* line 74, main.scss */
+      /* line 75, main.scss */
       .logo a:hover small {
         border-color: gray; }
 
-/* line 80, main.scss */
+/* line 81, main.scss */
 .table, .table-cell {
   width: 100%;
   height: 100%;
@@ -8248,33 +8249,33 @@ body * {
   padding: 0;
   display: table; }
 
-/* line 87, main.scss */
+/* line 88, main.scss */
 .table-cell {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 92, main.scss */
+/* line 93, main.scss */
 #svg-logo {
   width: 100%;
   height: 100%;
   margin-bottom: 50px; }
-  /* line 96, main.scss */
+  /* line 97, main.scss */
   #svg-logo path {
     fill: white; }
 
 @media (max-width: 414px) {
-  /* line 101, main.scss */
+  /* line 102, main.scss */
   .logo small {
     font-size: 18px; } }
 @media (max-width: 375px) {
-  /* line 106, main.scss */
+  /* line 107, main.scss */
   .logo small {
     font-size: 16px; } }
 @media (max-width: 320px) {
-  /* line 111, main.scss */
+  /* line 112, main.scss */
   .logo small {
     font-size: 14px; } }
-/* line 115, main.scss */
+/* line 116, main.scss */
 .hamburger {
   position: absolute;
   top: 0;
@@ -8304,7 +8305,7 @@ body * {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
-  /* line 129, main.scss */
+  /* line 130, main.scss */
   .hamburger .pattie {
     height: 2px;
     background: white;
@@ -8312,7 +8313,7 @@ body * {
     width: 30px;
     float: left; }
 
-/* line 137, main.scss */
+/* line 138, main.scss */
 .menu {
   position: fixed;
   top: 0;
@@ -8340,7 +8341,7 @@ body * {
       -ms-transform: translateX(-100%);
           transform: translateX(-100%);
   min-width: 220px; }
-  /* line 152, main.scss */
+  /* line 153, main.scss */
   .menu a {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8361,22 +8362,22 @@ body * {
     -webkit-transition: all ease .4s;
     transition: all ease .4s;
     font-size: 24px; }
-    /* line 159, main.scss */
+    /* line 160, main.scss */
     .menu a:hover {
       background: white;
       color: black;
       text-transform: uppercase; }
-    /* line 164, main.scss */
+    /* line 165, main.scss */
     .menu a:focus {
       background: #333333;
       color: silver; }
 
-/* line 172, main.scss */
+/* line 173, main.scss */
 .nav-open .menu {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0); }
-/* line 175, main.scss */
+/* line 176, main.scss */
 .nav-open .logo {
   -webkit-transform: translateX(40%);
       -ms-transform: translateX(40%);
